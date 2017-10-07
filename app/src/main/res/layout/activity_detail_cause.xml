@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_cause"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.thoeunchhaykry.shortcauseapp.DetailCauseActivity"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/background_light">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/image_layout"
+                android:background="@android:color/background_light">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/noimages"
+                    android:id="@+id/tv_detail_image"
+                    android:layout_below="@+id/tv_detail_enddate"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_height="200dp"
+                    tools:ignore="ContentDescription,ObsoleteLayoutParam"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/text_layout"
+                android:layout_below="@+id/image_layout"
+                android:padding="10dp"
+                android:background="@android:color/background_light"
+                tools:ignore="ObsoleteLayoutParam">
+
+                <TextView
+                    android:text="Cause Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_detail_name"
+                    android:layout_weight="0.14"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:textColor="@color/cardview_dark_background"
+                    tools:ignore="HardcodedText,InefficientWeight,ObsoleteLayoutParam" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.14"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="31dp"
+                        android:layout_height="37dp"
+                        app:srcCompat="@drawable/icon_startdate"
+                        android:id="@+id/imageView24"
+                        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/tv_detail_name"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/tv_detail_startdate"
+                        android:textSize="14sp"
+                        android:layout_margin="5dp"
+                        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/colorPrimary" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.14"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="33dp"
+                        android:layout_height="37dp"
+                        app:srcCompat="@drawable/icon_enddate"
+                        android:id="@+id/imageView25"
+                        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/tv_detail_startdate"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/tv_detail_enddate"
+                        android:textSize="14sp"
+                        android:padding="5dp"
+                        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/primary_text" />
+                </LinearLayout>
+
+                <TextView
+                    android:text="0 $"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_detail_price"
+                    android:layout_weight="0.14"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textAlignment="textEnd"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginTop="-15px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:id="@+id/cdescripion"
+                android:background="@android:color/background_light">
+
+                <TextView
+                    android:text="Cause Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView24"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:text="Description Cause"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_detail_description"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/secondary_text"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/cdescripion"
+                android:layout_weight="0.14"
+
+                android:background="@android:color/background_light"
+                tools:ignore="ObsoleteLayoutParam">
+
+                <TextView
+                    android:text="Contact to :"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_detail_contact"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:text="Description Cause"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_detail_address"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/secondary_text"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:text="Post On:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_detail_postdate"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/primary_text"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                tools:ignore="DisableBaselineAlignment,RtlHardcoded,UselessLeaf"
+                android:background="@color/colorPrimary"
+                android:layout_height="40dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:id="@+id/linear_call"
+                    android:layout_gravity="left">
+
+                    <ImageView
+                        android:id="@+id/ivDe_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        app:srcCompat="@mipmap/call_icon"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/share_icons"
+                        android:id="@+id/Ivd_share"
+                        tools:ignore="ContentDescription,RtlHardcoded"
+                        android:padding="3dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/tag_icons"
+                        android:id="@+id/Ivd_tag"
+                        tools:ignore="ContentDescription"
+                        android:padding="3dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.thoeunchhaykry.shortcauseapp.Student.UserprofileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_alignLeft="@+id/btn_editprofile"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_editprofile"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/backprofile"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/defaultprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/defaultprofilem"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btn_editprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/defaultprofile"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/btn_request"
+        android:text="Edit Profile"
+        android:textColor="@color/colorAccent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_editprofile"
+        android:layout_marginTop="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_pro_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/textviewback"
+                android:ems="10"
+                android:hint="Full name"
+                android:inputType="textPersonName"
+                android:padding="13dp"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textviewback" />
+
+                <ImageView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-40dp"
+                    android:src="@mipmap/ic_dropdown" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_pro_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/textviewback"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="13dp"
+                tools:ignore="HardcodedText" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

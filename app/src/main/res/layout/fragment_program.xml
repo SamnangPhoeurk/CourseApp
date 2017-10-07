@@ -1,0 +1,303 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thoeunchhaykry.shortcauseapp.FragmentCauseType.NetwordFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/first_program"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/arc">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ios"
+                android:id="@+id/imageView16"
+                android:layout_marginTop="5dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="IOS Programming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@android:color/holo_green_dark">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/android"
+                android:id="@+id/imageView17"
+                android:layout_marginTop="5dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Android Programming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/second_program"
+        android:layout_below="@+id/first_program"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:srcCompat="@drawable/website"
+                android:id="@+id/imageView18"
+                android:layout_marginTop="5dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/sp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:srcCompat="@drawable/windowsapp"
+                android:id="@+id/imageView19"
+                android:layout_marginTop="3dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Windows Application"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/three_program"
+        android:layout_below="@+id/second_program"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/eee">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:srcCompat="@drawable/basicpro"
+                android:id="@+id/imageView20"
+                android:layout_marginTop="5dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Basic Programming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/eee">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:srcCompat="@drawable/java"
+                android:id="@+id/imageView22"
+                android:layout_marginTop="3dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/four_program"
+        tools:ignore="DisableBaselineAlignment"
+        android:layout_below="@+id/three_program"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/civil">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:srcCompat="@drawable/database"
+                android:id="@+id/imageView21"
+                android:layout_marginTop="5dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Database"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/civil">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:srcCompat="@drawable/watch"
+                android:id="@+id/imageView23"
+                android:layout_marginTop="3dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Watch App"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

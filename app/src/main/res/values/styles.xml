@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="request_btn" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#c7c7c7</item>
+        <item name="colorButtonNormal">#ffffff</item>
+    </style>
+    <style name="deletedbtn" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#b71c1c</item>
+        <item name="colorButtonNormal">#ff1744</item>
+    </style>
+    <style name="editbtn" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#0D47A1</item>
+        <item name="colorButtonNormal">#1976D2</item>
+    </style>
+
+</resources>

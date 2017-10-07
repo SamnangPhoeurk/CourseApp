@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_settingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Setting"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/colorAccent"></View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:id="@+id/tv_changeEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="Change Email"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/colorAccent"></View>
+
+            <LinearLayout
+                android:id="@+id/linear_ChangeEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <EditText
+                    android:id="@+id/et_oldEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/rounded_edittext"
+                    android:enabled="false"
+                    android:hint="Old Email"
+                    android:inputType="text"
+                    android:padding="10sp"
+                    android:textColor="#000" />
+
+                <EditText
+                    android:id="@+id/et_NewEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="New Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="10sp" />
+
+                <EditText
+                    android:id="@+id/et_Emailpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="Your password"
+                    android:inputType="textPassword"
+                    android:padding="10sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn_Ecancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Cancel"
+                        android:textColor="#fff"
+                        android:theme="@style/deletedbtn" />
+
+                    <Button
+                        android:id="@+id/btn_Echanges"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Change"
+                        android:textColor="#fff"
+                        android:theme="@style/editbtn" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/colorAccent"></View>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/password" />
+
+                <TextView
+                    android:id="@+id/tv_ChangesPW"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+
+                    android:text="Change Password"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/colorAccent"></View>
+
+            <LinearLayout
+                android:id="@+id/linear_ChangePass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <EditText
+                    android:id="@+id/et_oldpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="Old Password"
+                    android:inputType="textPassword"
+                    android:padding="10sp" />
+
+                <EditText
+                    android:id="@+id/et_NewPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="New Password"
+                    android:inputType="textPassword"
+                    android:padding="10sp" />
+
+                <EditText
+                    android:id="@+id/et_conNewPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="Confirm New Password"
+                    android:inputType="textPassword"
+                    android:padding="10sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Cancel"
+                        android:textColor="#fff"
+                        android:theme="@style/deletedbtn" />
+
+                    <Button
+                        android:id="@+id/btn_changes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Change"
+                        android:textColor="#fff"
+                        android:theme="@style/editbtn" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/colorAccent"></View>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/signout" />
+
+                <TextView
+                    android:id="@+id/tv_logOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="Sign Out"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/colorAccent">
+
+            </View>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

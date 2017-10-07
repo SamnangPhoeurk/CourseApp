@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thoeunchhaykry.shortcauseapp.FragmentCauseType.NetwordFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/first_network"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@android:color/holo_blue_dark"
+            android:id="@+id/cisco_network">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                app:srcCompat="@drawable/ciscologo"
+                android:id="@+id/imageView12"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Cisco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:layout_marginTop="-5px"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@android:color/holo_blue_dark"
+            android:id="@+id/windows_network">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/windowsserver"
+                android:id="@+id/imageView13"
+                tools:ignore="ContentDescription"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:text="Windows Server"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/second_network"
+        android:layout_below="@+id/first_network"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/multi"
+            android:id="@+id/linux_network">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                app:srcCompat="@drawable/linux"
+                android:id="@+id/imageView14"
+                android:layout_marginTop="3dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Linux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            tools:ignore="RtlHardcoded,UselessLeaf"
+            android:background="@color/multi"
+            android:id="@+id/ubuntu_network">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                app:srcCompat="@drawable/ubuntu"
+                android:id="@+id/imageView15"
+                android:layout_marginTop="3dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Ubuntu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

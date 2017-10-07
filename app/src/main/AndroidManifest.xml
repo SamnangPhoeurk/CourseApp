@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thoeunchhaykry.shortcauseapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/causeapp_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".ControllActivity"
+            android:hardwareAccelerated="false"
+            android:label="Network"
+            android:largeHeap="true"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thoeunchhaykry.shortcauseapp.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".DetailCauseActivity"
+            android:label="Detail Cause"
+            android:parentActivityName=".CauselistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thoeunchhaykry.shortcauseapp.CauselistActivity" />
+        </activity>
+        <activity
+            android:name=".CauselistActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thoeunchhaykry.shortcauseapp.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".StudentActivity" />
+        <activity
+            android:name=".Student.StudentMainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".SplahScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Organization.OrgPostCaurseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thoeunchhaykry.shortcauseapp.HomeActivity" />
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".Organization.RequestCourseActivity" />
+        <activity android:name=".Organization.RequestCourseDetialActivity"></activity>
+    </application>
+
+</manifest>

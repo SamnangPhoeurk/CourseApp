@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu"
+            android:title="Home"
+            android:checked="true"
+            android:icon="@mipmap/home_icon"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/post_menu"
+            android:title="Post Course"
+            android:icon="@mipmap/upload_ic"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/myCourse_menu"
+            android:title="My Course"
+            android:icon="@mipmap/request_icon"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/couresRequested_menu"
+            android:title="Course Requested"
+            android:icon="@mipmap/request_icon"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/profile_menu"
+            android:title="Profile"
+            android:icon="@mipmap/porfile_icon"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/setting_menu"
+            android:title="Setting"
+            android:icon="@mipmap/setting_icon"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/logout_menu"
+            android:title="Log Out"
+            android:icon="@drawable/logout"
+            tools:ignore="HardcodedText" />
+
+
+
+    </group>
+</menu>

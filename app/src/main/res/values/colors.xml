@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#00bcd4</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="primary_text">#fb6f6f</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#666666</color>
+    <color name="divider">#037fbd</color>
+    <color name="network">#dc770c</color>
+    <color name="graphic">#00796b</color>
+    <color name="program">#00bcd4</color>
+    <color name="multi">#06cef6</color>
+    <color name="repair">#873d00</color>
+    <color name="acc">#4b4b4b</color>
+    <color name="eco">#028a9b</color>
+    <color name="arc">#bdbdbd</color>
+    <color name="civil">#03556a</color>
+    <color name="eee">#e36e26</color>
+    <color name="hop">#04855e</color>
+    <color name="law">#900125</color>
+    <color name="eng">#01b4c4</color>
+    <color name="sp">#0b69b1</color>
+</resources>
