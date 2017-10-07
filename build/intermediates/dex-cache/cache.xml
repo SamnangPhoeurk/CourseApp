@@ -3,264 +3,183 @@
 
     <item
         is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jar="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.1"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_e16b8fba34a3c7c31c589f8a954e193a0c458479/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/4f73f6cbdec702ccbd565fe55c39b704899d2f83/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e09663005d70dcedff0bb77211b9ac52d8b69421">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e577473eb55ad27a4db113578c400188065a2070/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.3.0_7f0a225803da8c3ae03ea57249b1fd1b2b55e59f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/282f52c454e91baae05cc100617a0cf2e8e67c7c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f7c116bcdfd3166654095c972b222c4061da7878/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/5cab315f75ce61001bbd0f835bb79eda3cb068f2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_42d36a4c602f4af15997940d3c31b6dce013dfdd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/466f86fbade888ea4f8d0e825970af2612b9cacc/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1571d08bd67852e2bb88da3d3e206e3e591bb616/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/libs/MD5Simply.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="46b0ec4fa70168d8020408d330cac47d1e95926b">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/MD5Simply_e980220d61a897315c88271af74e30d8903820f0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/ea7afc74bf4d1c536eea18fd3538932a58f78937/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdd1dede67c07857b0ac8fe1dbbff4faea994ef4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
+        revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c4961c3a4c96336fea27fc5d14bea3caddc02c69/classes.dex" />
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b4c281d5cf309cd415e3444a6e576d9860fe8428/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jar="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.1"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_7bcad76f7e8ef7030b3832b560f5f6f2adc9fad1/classes.dex" />
+        revision="25.0.0"
+        sha1="8139236435799dc77c95c0110276db36e291707c">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e162fe5560f423bf0f6301deff700b84f14da03d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jar="/Users/PSN/.android/build-cache/2e3835ef7b7e1363af39614bece3d92ac2c903a6/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.1"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_fbf2ed221f7b0cf2d64c5f2587fcae8a60c323b1/classes.dex" />
+        revision="25.0.0"
+        sha1="bc9ea2bc291bbebc83f5b160d115c699bddc4e16">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdd0157f2401fb12c2523d7e6af98e3ee0191d4a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jar="/Users/PSN/.android/build-cache/d5b93b54c5fe4b508a0f98f493c9216fd2cc961b/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_704f11537a77912a832a7e7245eeb5e2e0e8c869/classes.dex" />
+        revision="25.0.0"
+        sha1="252896ce41f2a84a2849e29235e66098be7d12ee">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_13b0a0dcd7d3da875b438022a325e13209337b49/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/7a250eb77f27d6f9c0534a41ee15b6b885894d10/output/jars/classes.jar"
+        jar="/Users/PSN/MyDocs/Android/CourseApp/app/libs/KGJsonConverter.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.1"
-        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1ff14dd4e4b1277fab11c35bb9642ae25781dd4c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/02a8e5e4c3f177c48770317bcde0ab670cf66b57/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_81e498c1ed783d78bf396aa4de2667b9b904eac6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/3fe337bdbd23b79becaffd898a225d8c83c72143/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_df69f21a6cf4f3300ad22638f6f72526d5b51491/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/c3151fb728e4b27ba504cc51488a174358594291/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0769a0ee8b04a6849de3b4ffd5fad326b595b38e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/libs/PhotoUtil.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="caf49e92eae4ca2805d530a92cb4777c1ef53f53">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/PhotoUtil_f840f1714cac1f97fef9ca12b0ed994d707d6bb2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/ec5baa1b7342d10cf9fdc835e71966c636fa2d85/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8b24078be27e468e879b415dcee6718e4ff03f11/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/d40535f62aece3f29f7b6d0a087227217e76ce69/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="68b02dada3c76d84943d6118dc8e2b342da4a4dd">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_abd6a2d5f63b8056ca2969659dc56b4fd9adf427/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/90025d63cd9d412941309f7dec200d47b9eab55b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3294e22690881c888150fb748ff99a78f81cc023/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/libs/KGJsonConverter.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
+        revision="25.0.0"
         sha1="cea743dc2e193922f7e7dc34858ef15b00afc6db">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/KGJsonConverter_6f62c49f7d8166f79a6148cc066ecfa0d8abed82/classes.dex" />
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/KGJsonConverter_b9d1fe98874d06dacd1fcfa48c58de95172f0e5e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="/Users/PSN/MyDocs/Android/CourseApp/app/libs/PhotoUtil.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_1cb379c17c3d9454eb50a8a4ddbbd66b049c57f5/classes.dex" />
+        revision="25.0.0"
+        sha1="caf49e92eae4ca2805d530a92cb4777c1ef53f53">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/PhotoUtil_0e535034e476b7a08090c69c5b4897e6da23ae56/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="/Users/PSN/.android/build-cache/2e63e674cb61a9cde2f47be9c3a5cc153b9f9928/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_197d1bc9ae409ae86681d707a8fad5e7bb834f58/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta3/constraint-layout-solver-1.0.0-beta3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta3_278d79e0571091f8ea437d19bab606fb8d641a63/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/336862b3512e661c040cb4038f1166eeb9249d41/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5264fc01d00d4fe4b848eaf43362a35ba5a2c9dc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/b8d80a37d688471ff2f3ed512c6db94ae6fd7a41/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bcc83c60f4349e37de4a77033003ae3dd1e475bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="89507701249388e1ed5ddcf8c41f4ce1be7831ef">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-20.0_3d83cba48afe1635f982e076be4f88ee3830c58e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="528db3ac7d0b6afc95d0c465c4fb94622ff853b6">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3296a17b689724a6f934d70553d7427f64b03299/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac07/.android/build-cache/48c6ce399812c7fe47074fd683404a443b9cdcf1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
+        revision="25.0.0"
         sha1="807751a24cf96566fd8675517c94d8463cf364db">
-        <dex dex="/Users/imac07/Google Drive/EXHIBITION/ShortCauseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4446e766eaa9328f2af6a76e08407f0816837b5c/classes.dex" />
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd0e12221729daee956cadea3aa348572e93ab55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/MyDocs/Android/CourseApp/app/libs/MD5Simply.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="46b0ec4fa70168d8020408d330cac47d1e95926b">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/MD5Simply_72f7247b88f48638044919020d66c51288236261/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/9fbe5fd3e2ddf133f818d8f36f1a77fe585cc062/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d839cccc1ab33871f3739b9f1caa8c200b05691/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/1a338e3e9bfe171a9d2398ac96327d80bf8ff2a2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f78fe6b542dc824c310e2dfa0c0e689de8f0b205/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/cfff87743f6c2e01fc86d88bd89ffb6e3112a053/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_43d6e873f3a7bd4a424ab05e53186d26b08a9205/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/8742d608309c61853f746ff1ffd255bf33b23f8f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_639ed1638ee553bb0d40c2eec58928608cfc0580/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/3a8434c172cd8d8f90fddd27920d5ea303a51ac8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1586cb70af24c73c70bb8a498c4b6980d77fe6a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/00d355f98449def4af8df1a4b2f7a1b0616dcdfd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b3aa7c024e44d458f3afcbabce68b6ffefee7a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/9a4e2cac6c6a04cbc60f616531b61d71d8ddbcd3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_183b2e5cdc3916f722b94702764ae37c969d2594/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/9cb1f634f04b192736bfe4fbc2cab1382546b530/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b272ca7e05387455aeabcb38e9697049922c91e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.3.0_23e0c901cee0a6f0ca8df0418e4ec25037e8203c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/54aef16664e8a329e0cac8f0c70936cf10231c75/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a0c96cb2e74d3a6e692d920c9e03326e77f6429">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a7bd1ef1f39da9a832e1efbdb70aaae3c6ea019/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/8920e34bb3dfa0b563ebe8924274db6c41ea0bd9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_98a71ad89eaf67b548a5acb404af823685c2df32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/PSN/.android/build-cache/4f4ee9aae095c2bd1aa5eecaef053a890b390f09/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="/Users/PSN/MyDocs/Android/CourseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_33ed4bdd53de7c1fab8ac52cef1ee74e61186e43/classes.dex" />
     </item>
 
 </items>

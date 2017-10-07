@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="awesome-validation-2.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.basgeekball/awesome-validation/2.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.basgeekball/awesome-validation/2.0/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/45fe38bebb32686e5b7f350ca63735c71de10bf8/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/45fe38bebb32686e5b7f350ca63735c71de10bf8/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
